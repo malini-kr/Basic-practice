@@ -4,7 +4,7 @@ driver = Chrome()
 driver.maximize_window()
 
 driver.get("https://www.w3schools.com/")
-sleep(3)
+sleep(5)
 a=driver.find_elements("tag name", "h1")
 print(len(a))
 for i in a:
